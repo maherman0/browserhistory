@@ -1,16 +1,48 @@
 body {
-    background-color: ivory;
-    color: darkblue;
-    margin: 10px 50px;
+    background-color: white;
+    color: black;
+    margin: 40px 320px 200px 250px;
+    width: 475px;
+    line-height: 175%;
     font-family: "Open Sans", sans-serif;
 }
 
 h1, h2,h3,h4,h5,h6 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 img {
+     margin: 0px auto 10px auto; 
+     display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 350%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1.fancy {
+    font-family: "Edwardian Script ITC", cursive; 
+    font-size: 50pt; 
+    text-align: center;
+    line-height: 135%;
+}
+
+h1.chapter {
+    font-size: 30pt;
+    text-align: center;
+}
+
+a.left {
     float: left;
-    margin-right: 10px;
+    font-weight: bold;
+}
+
+a.right {
+    float: right;
+    font-weight: bold;
 }
 
